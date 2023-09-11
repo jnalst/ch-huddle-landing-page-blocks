@@ -1,0 +1,63 @@
+:root {
+  /* 10 px = 1 rem */
+  font-size: 62.5%;
+
+  /* colorPrimary */
+  --pPink: #ff52bf;
+  /* Neutral */
+  --w: #ffffff;
+  --vPaleBlue: #ebfbff;
+  --vDarkCyan: #00252e;
+  --gBlue: #808d99;
+}
+
+/* CSS RESET */
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  box-sizing: border-box;
+  font-size: 1.4rem;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+}
+
+.container {
+  box-sizing: border-box;
+  max-width: 1200px;
+  padding-inline: 2rem;
+  margin-inline: auto;
+}
+
+.container-action {
+  box-sizing: border-box;
+  max-width: 800px;
+  padding-inline: 2rem;
+  margin-inline: auto;
+}
+
+
+button {
+  border: none;
+  text-decoration: none;
+}

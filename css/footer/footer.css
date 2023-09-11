@@ -1,0 +1,127 @@
+.footer-bg {
+    background-color: var(--vDarkCyan);
+}
+
+.footer-main {
+    display: grid;
+    grid-template-columns: 2fr 1.2fr 1fr;
+    gap: 10rem;
+}
+
+.footer-main address .logo {
+    padding-bottom: 2.5rem;
+}
+
+.footer-main .address {
+    display: grid;
+    grid-template-columns: 18px 1fr;
+    color: var(--w);
+    gap: 1rem;
+    font-family: "Open Sans";
+    align-items: baseline;
+    max-width: 40ch;
+    padding-bottom: 2rem;
+}
+
+.footer-main .address span {
+    place-self: center;
+    margin-top: -2.5rem;
+}
+
+.footer-main .phone {
+    display: grid;
+    grid-template-columns: 18px 1fr;
+    color: var(--w);
+    gap: 1rem;
+    font-family: "Open Sans";
+    align-items: baseline;
+    max-width: 40ch;
+    padding-bottom: 2rem;   
+    align-items: center;
+}
+
+.footer-main .phone span {
+    place-self: center;
+}
+
+.footer-main .email {
+    display: grid;
+    grid-template-columns: 18px 1fr;
+    color: var(--w);
+    gap: 1rem;
+    font-family: "Open Sans";
+    align-items: baseline;
+    max-width: 40ch;
+    padding-bottom: 2rem;   
+    align-items: center;
+}
+
+.footer-main .email span {
+    place-self: center;
+}
+
+.footer-main2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+    place-items: center;
+    font-family: "Open Sans";
+
+}
+
+.footer-main2 li a{
+    color: var(--w);  
+    transition: all .5s;  
+}
+
+.footer-main2 li a:hover{
+text-decoration: underline;
+}
+
+.footer-main2 li{
+    padding-bottom: 2rem;
+}
+
+.footer-main3 {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    margin-top: 6rem;
+}
+
+.footer-main3 img {
+    width: 26px;
+}
+
+.footer-main3 p {
+    justify-content: center;
+}
+
+.copy p{
+text-align: end;
+font-family: "Open Sans";
+color: var(--w);
+font-size: 1.6rem;
+}
+
+@media screen and (max-width: 800px) {
+    .footer-main {
+        display: grid;
+        grid-template-columns:1fr;
+        gap: 2rem;
+    }
+
+    .footer-main2{
+        grid-template-columns: 1fr;
+        place-items: start;
+        gap: 0rem;
+    }
+
+    .copy p{
+        text-align: center;
+        font-size: 1.4rem;
+        margin-top: 1.5rem;
+        }
+        
+
+}

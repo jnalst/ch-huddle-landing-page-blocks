@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@600&display=swap');
+@import "./global/global.css";
+@import "./header/header.css";
+@import "./conteudo1/conteudo1.css";
+@import "./conteudo2/conteudo2.css";
+@import "./conteudo3/conteudo3.css";
+@import "./call-action/call.css";
+@import "./footer/footer.css";
+@import "./footerch/footerch.css";

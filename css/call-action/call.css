@@ -1,0 +1,65 @@
+.chamada-bg {
+    height: 35rem;
+    box-shadow: inset 0 -17rem var(--vDarkCyan);
+}
+
+.chamada{
+    box-shadow: .1rem .1rem 2rem rgba(0, 0, 0, 0.144);
+    border-radius: 1rem;
+    display: grid;
+    place-items: center;
+    height: 28rem;
+    background-color: var(--w);
+}
+
+.chamada h5 {
+    padding-top: 1rem;
+    font-size: 3.4rem;
+    font-family: "Poppins";
+    color: var(--vDarkCyan);
+    max-width: max-content;
+    margin-bottom: 4rem;
+    margin-top: 4rem;
+}
+
+.chamada a {
+    padding-inline: 12rem;
+    padding-block: 2rem;
+    font-family: "Poppins";
+    font-weight: 600;
+    box-shadow: .1rem .1rem 2rem rgba(0, 0, 0, 0.144);
+    color: var(--w);
+    background-color: var(--pPink);
+    border-radius: 4rem;
+    font-size: 2.2rem;
+    margin-bottom: 6rem;
+    transition: all .5s
+}
+
+.chamada a:hover {
+    background-color: #ff97d9;
+}
+
+@media screen and (max-width:800px) {
+
+    .chamada{
+        margin-inline: 2rem;
+    }
+
+    .chamada h5 {
+        font-size: 2.4rem;
+        text-align: center;
+    }
+
+    .chamada a {
+        padding-inline: 4rem;
+        padding-block: 2rem;
+        font-size: 1.8rem;
+    }
+
+    .chamada-bg {
+        height: 35rem;
+        box-shadow: inset 0 -17rem var(--vDarkCyan);
+    }
+    
+}

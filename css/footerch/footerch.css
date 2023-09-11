@@ -1,0 +1,12 @@
+.attribution {
+    font-family: "Open Sans";
+    font-size: 16px;
+    text-align: center;
+    color: var(--w);
+    padding-top: 3rem;
+}
+
+.attribution a {
+    color: var(--w);
+    font-weight: 700 ;
+}

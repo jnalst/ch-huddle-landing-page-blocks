@@ -1,0 +1,103 @@
+header {
+    background-color: var(--vPaleBlue);
+    background-image: url("/assets/img/bg-hero-desktop.svg");
+}
+
+.menu-logo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.menu-logo .logo img {
+    width: 20rem;
+}
+
+.menu-logo a {
+    place-self: end;
+    padding-inline: 7rem;
+    padding-block: 2rem;
+    background-color: var(--w);
+    border-radius: 4rem;
+    color: var(--vDarkCyan);
+    font-family: "Poppins";
+    font-weight: 600;
+    box-shadow: .1rem .1rem 2rem rgba(0, 0, 0, 0.144);
+    transition: all .5s
+}
+
+.menu-logo a:hover {
+    color: var(--gBlue);
+}
+
+.main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    padding-top: 3rem;
+    padding-bottom: 6rem;
+}
+
+.main-text h1 {
+    font-size: 4.2rem;
+    font-family: "Poppins";
+    color: var(--vDarkCyan);
+    max-width: 20ch;
+    padding-bottom: 3rem;
+}
+
+.main-text p {
+    font-size: 1.8rem;
+    color: var(--vDarkCyan);
+    font-family: "Open Sans";
+    padding-bottom: 6rem;
+    max-width: 50ch;
+}
+
+.main-text a {
+    padding-inline: 7rem;
+    padding-block: 2rem;
+    font-family: "Poppins";
+    font-weight: 600;
+    box-shadow: .1rem .1rem 2rem rgba(0, 0, 0, 0.144);
+    color: var(--w);
+    background-color: var(--pPink);
+    border-radius: 4rem;
+    transition: all .5s;
+}
+
+.main-text a:hover {
+    background-color: #ff97d9;
+}
+
+@media screen and (max-width: 800px) {
+    .menu-logo a {
+        place-self: end;
+        padding-inline: 4rem;
+        padding-block: 1rem;
+    }
+
+    .main {
+        grid-template-columns: 1fr;
+        place-items: center;
+        padding-bottom: 3rem;
+    }
+
+    .main-text h1 {
+        font-size: 4.2rem;
+        text-align: center;
+    }
+
+    .main-text p{
+        text-align: center;
+    }
+
+    .main-text a {
+        display: grid;
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+
+
+}
